@@ -474,7 +474,7 @@
         <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m8 6-6 6 6 6M16 6l6 6-6 6"/></svg></div>
         <div class="skill-row-title">Languages</div>
       </div>
-      <div class="skill-pills"><span class="pill-tag">Python</span><span class="pill-tag">C</span></div>
+      <div class="skill-pills"><span class="pill-tag">Python</span><span class="pill-tag">C</span><span class="pill-tag">JavaScript</span></div>
     </div>
     <div class="skill-row">
       <div class="skill-row-label">
@@ -482,7 +482,16 @@
         <div class="skill-row-title">ML / AI</div>
       </div>
       <div class="skill-pills">
-        <span class="pill-tag">Scikit-learn</span><span class="pill-tag">TensorFlow</span><span class="pill-tag">Pandas</span><span class="pill-tag">NumPy</span><span class="pill-tag">NLP</span><span class="pill-tag">EDA</span>
+        <span class="pill-tag">Scikit-learn</span><span class="pill-tag">TensorFlow</span><span class="pill-tag">Keras</span><span class="pill-tag">Pandas</span><span class="pill-tag">NumPy</span><span class="pill-tag">NLP</span><span class="pill-tag">EDA</span><span class="pill-tag">Prompt Engineering</span>
+      </div>
+    </div>
+    <div class="skill-row">
+      <div class="skill-row-label">
+        <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <div class="skill-row-title">LLM APIs & Agents</div>
+      </div>
+      <div class="skill-pills">
+        <span class="pill-tag">Gemini API</span><span class="pill-tag">Groq API</span><span class="pill-tag">LangGraph</span><span class="pill-tag">Multimodal AI</span><span class="pill-tag">RAG</span>
       </div>
     </div>
     <div class="skill-row">
@@ -500,7 +509,7 @@
         <div class="skill-row-title">Web & Tools</div>
       </div>
       <div class="skill-pills">
-        <span class="pill-tag">Streamlit</span><span class="pill-tag">Flask</span><span class="pill-tag">Git</span><span class="pill-tag">GitHub</span><span class="pill-tag">VS Code</span><span class="pill-tag">Jupyter</span>
+        <span class="pill-tag">Streamlit</span><span class="pill-tag">Flask</span><span class="pill-tag">FastAPI</span><span class="pill-tag">React</span><span class="pill-tag">Docker</span><span class="pill-tag">PostgreSQL</span><span class="pill-tag">Git</span><span class="pill-tag">GitHub</span><span class="pill-tag">VS Code</span><span class="pill-tag">Jupyter</span>
       </div>
     </div>
   </div>
@@ -554,6 +563,16 @@
   </div>
   <div class="projects">
     <div class="project-card">
+      <div class="project-title">AgroScan</div>
+      <div class="project-links">
+        <a href="https://github.com/Aarti-1209/Agroscan" class="project-link" target="_blank" rel="noopener">github ↗</a>
+      </div>
+      <p class="project-desc">An AI-powered crop disease detection app built for Indian farmers. Uses a fine-tuned MobileNetV2 model (two-phase transfer learning on the PlantVillage dataset) to diagnose 38+ crop diseases from a leaf photo, with 8-language support, a map-based nearby agri-shop finder (Leaflet.js + OpenStreetMap), weather-based disease risk alerts, and a Gemini-powered farming chatbot.</p>
+      <div class="project-tags">
+        <span class="stack-badge">Python</span><span class="stack-badge">Flask</span><span class="stack-badge">TensorFlow</span><span class="stack-badge">Gemini API</span><span class="stack-badge">Leaflet.js</span>
+      </div>
+    </div>
+    <div class="project-card">
       <div class="project-title">ResumeAI</div>
       <div class="project-links">
         <a href="https://web-production-a0fa1.up.railway.app/" class="project-link" target="_blank" rel="noopener">live preview ↗</a>
@@ -584,16 +603,40 @@
     <h2>Internship tasks & practice</h2>
   </div>
   <div class="task-grid">
-    <a href="https://github.com/Aarti-1209/-codveda-ml-internship" class="task-card">
+    <a href="https://github.com/Aarti-1209/Meeting-Mind-AI" class="task-card">
       <div class="task-index">01</div>
       <div class="task-main">
-        <div class="task-title">Codveda ML Internship Tasks <span class="task-arrow">↗</span></div>
-        <div class="task-desc">Data preprocessing, regression, classification & neural network tasks.</div>
-        <div class="task-stack"><span class="stack-badge">Python</span><span class="stack-badge">scikit-learn</span><span class="stack-badge">TensorFlow</span></div>
+        <div class="task-title">MeetingMind AI — Capstone Project <span class="task-arrow">↗</span></div>
+        <div class="task-desc">AI meeting-intelligence platform on Gemini API — action items, risks, decisions & Q&A from text, audio, or whiteboard photos. MirAI Summer Internship Capstone.</div>
+        <div class="task-stack"><span class="stack-badge">Streamlit</span><span class="stack-badge">Gemini API</span><span class="stack-badge">Multimodal AI</span></div>
+      </div>
+    </a>
+    <a href="https://github.com/Aarti-1209/RewireOS" class="task-card">
+      <div class="task-index">02</div>
+      <div class="task-main">
+        <div class="task-title">Life-OS (RewireOS) <span class="task-arrow">↗</span></div>
+        <div class="task-desc">A screen-time wellbeing dashboard with an AI coach ("Coach Kael") powered by Gemini — XP/level system, anomaly detection, and a 7-day usage forecast. Unit-tested with CI, Dockerized.</div>
+        <div class="task-stack"><span class="stack-badge">Streamlit</span><span class="stack-badge">Gemini API</span><span class="stack-badge">Docker</span><span class="stack-badge">pytest</span></div>
+      </div>
+    </a>
+    <a href="https://github.com/Aarti-1209/multi-modal-visual-novel" class="task-card">
+      <div class="task-index">03</div>
+      <div class="task-main">
+        <div class="task-title">Multi-Modal Visual Novel <span class="task-arrow">↗</span></div>
+        <div class="task-desc">An AI "Choose Your Own Adventure" engine — Gemini generates stateful story JSON, dynamic choice buttons, live scene art, and gTTS narration every turn. MirAI Capstone.</div>
+        <div class="task-stack"><span class="stack-badge">Streamlit</span><span class="stack-badge">Gemini API</span><span class="stack-badge">gTTS</span><span class="stack-badge">Pollinations AI</span></div>
+      </div>
+    </a>
+    <a href="https://github.com/Aarti-1209/ai-image-studio" class="task-card">
+      <div class="task-index">04</div>
+      <div class="task-main">
+        <div class="task-title">AI Image Studio <span class="task-arrow">↗</span></div>
+        <div class="task-desc">An AI image generator with customizable art styles, Magic Enhance, Surprise Me, and a gallery with bulk ZIP download — built on the Pollinations AI API.</div>
+        <div class="task-stack"><span class="stack-badge">Streamlit</span><span class="stack-badge">Pollinations AI</span></div>
       </div>
     </a>
     <a href="https://github.com/Aarti-1209/ai-multiverse-assignment" class="task-card">
-      <div class="task-index">02</div>
+      <div class="task-index">05</div>
       <div class="task-main">
         <div class="task-title">AI Multiverse Chatbot <span class="task-arrow">↗</span></div>
         <div class="task-desc">Chat with 10 AI personalities, each with a distinct tone — MirAI Summer Internship, Assignment 2.</div>
@@ -601,7 +644,7 @@
       </div>
     </a>
     <a href="https://github.com/Aarti-1209/echo-chamber-assignment" class="task-card">
-      <div class="task-index">03</div>
+      <div class="task-index">06</div>
       <div class="task-main">
         <div class="task-title">Echo Chamber — Identity Interface <span class="task-arrow">↗</span></div>
         <div class="task-desc">Validates input and estimates token cost — MirAI, Assignment 1.</div>
@@ -609,19 +652,19 @@
       </div>
     </a>
     <a href="https://github.com/Aarti-1209/streamlit-calculator-" class="task-card">
-      <div class="task-index">04</div>
+      <div class="task-index">07</div>
       <div class="task-main">
         <div class="task-title">Streamlit Calculator <span class="task-arrow">↗</span></div>
         <div class="task-desc">A simple calculator web app built for an internship task.</div>
         <div class="task-stack"><span class="stack-badge">Streamlit</span></div>
       </div>
     </a>
-    <a href="https://github.com/Aarti-1209/RewireOS" class="task-card">
-      <div class="task-index">05</div>
+    <a href="https://github.com/Aarti-1209/-codveda-ml-internship" class="task-card">
+      <div class="task-index">08</div>
       <div class="task-main">
-        <div class="task-title">RewireOS — AI Wellbeing Dashboard <span class="task-arrow">↗</span></div>
-        <div class="task-desc">Screen-time dashboard with an AI coach, streaks, XP levels, forecasting & anomaly detection — MirAI, Assignment 7.</div>
-        <div class="task-stack"><span class="stack-badge">Streamlit</span><span class="stack-badge">Gemini API</span><span class="stack-badge">Docker</span><span class="stack-badge">pytest</span></div>
+        <div class="task-title">Codveda ML Internship Tasks <span class="task-arrow">↗</span></div>
+        <div class="task-desc">Data preprocessing, regression, classification & neural network tasks.</div>
+        <div class="task-stack"><span class="stack-badge">Python</span><span class="stack-badge">scikit-learn</span><span class="stack-badge">TensorFlow</span></div>
       </div>
     </a>
   </div>
